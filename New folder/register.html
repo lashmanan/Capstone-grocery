@@ -42,33 +42,28 @@
       <li style="float: right"><a href="login.html">Login</a></li>
        <li style="float: right"><a href="register.html">Register</a></li>
     </nav>
-<div id="form_layout">
-<p id="head"></p>
+<div id="form">
+
 <!-- This segment displays the validation rule -->
 <h2> Register</h2>
 <!-- Form starts from here -->
 <form onsubmit='return formValidation()'>
-<label>Full Name:</label>
-<input id='firstname' required type='text'>
-<p id="p1"></p>
+Full Name: <input id='firstname' required type='text'>
+
 <!-- This segment displays the validation rule for name -->
-<label>Username(6-8 characters):</label>
-<input id='username' required type='text'>
-<p id="p2"></p>
+Username(6-8 characters):<input id='username' required type='text'>
+
 <!-- This segment displays the validation rule for user name -->
-<label>Email:</label>
-<input id='email' required type='text'>
-<p id="p3"></p>
+Email: <input id='email' required type='text'>
+
 <!-- This segment displays the validation rule for email -->
 
 <!-- This segment displays the validation rule for selection -->
-<label>Address:</label>
-<input id='addr' required type='text'>
-<p id="p5"></p>
+Address:<input id='addr' required type='text'>
+
 <!-- This segment displays the validation rule for address -->
-<label>Zip Code:</label>
-<input id='zip' required type='text'>
-<p id="p6"></p>
+Zip Code: <input id='zip' required type='text'>
+<br>
 <!-- This segment displays the validation rule for zip -->
 <input type="submit" value="Register" id="submit" onclick="formValidation()"/>
 </form>
@@ -76,7 +71,7 @@
 
 </main>
 <footer>
- <div class="container">
+ <div class="container" id="f">
  <div class="full">
   <div class="grid grid-three">
   <h4 class="text-blue">PRODUCTS</h4>
