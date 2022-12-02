@@ -28,9 +28,8 @@ margin-bottom: 30px;
 
 }
 
-#form_layout{
-width:300px;
-float: left;
+#form{
+width:500px;
 border-radius: 10px;
 font-family:raleway;
 border: 2px solid #ccc;
@@ -38,6 +37,8 @@ padding: 10px 40px 25px;
 margin-top: -2px;
 left:100px;
 left:50px;
+position:absolute;
+left:300px
 }
 
 input[type=text],input[type=password],#state{
@@ -74,4 +75,10 @@ color: cornflowerblue;
 p{
 font-size:12px;
 color:red;
+}
+
+#f {
+position:absolute;
+bottom:-5px;
+left:100px
 }
